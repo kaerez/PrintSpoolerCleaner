@@ -1,5 +1,5 @@
 @echo off
-::https://github.com/kaerez/Print-spooler-cleaner
+::https://github.com/kaerez/PrintSpoolerCleaner
 echo Stopping print service
 net stop spooler 1>nul 2>nul
 ping -n 5 127.0.0.1 1>nul 2>nul
